@@ -1,0 +1,153 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9177001c4858da69b792787a0a52e5f7",
+    "packages": [
+        {
+            "name": "ekolo/eko-helpers",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ekolo-contributing/eko-helpers.git",
+                "reference": "f5e4e5b4b0ba66c2a96bef78287fc0a94da69ebb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ekolo-contributing/eko-helpers/zipball/f5e4e5b4b0ba66c2a96bef78287fc0a94da69ebb",
+                "reference": "f5e4e5b4b0ba66c2a96bef78287fc0a94da69ebb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Don de Dieu BOLENGE",
+                    "email": "dondedieubolenge@gmail.com"
+                }
+            ],
+            "description": "Contient des fonctions",
+            "keywords": [
+                "eko",
+                "eko-helpers",
+                "ekolo",
+                "helpers"
+            ],
+            "time": "2020-02-27T13:53:58+00:00"
+        },
+        {
+            "name": "ekolo/eko-http",
+            "version": "0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ekolo-contributing/eko-http.git",
+                "reference": "00fcf01c7bd0d20a0f391c4fc10b65838a2dcbc6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ekolo-contributing/eko-http/zipball/00fcf01c7bd0d20a0f391c4fc10b65838a2dcbc6",
+                "reference": "00fcf01c7bd0d20a0f391c4fc10b65838a2dcbc6",
+                "shasum": ""
+            },
+            "require": {
+                "ekolo/eko-magic": "^0.3.0",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ekolo\\Component\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Don de Dieu BOLENGE",
+                    "email": "dondedieubolenge@gmail.com"
+                }
+            ],
+            "description": "Permet de gérer les différentes requêtes et réponses http et d'autres fonctionnalité liées au protol http",
+            "keywords": [
+                "body",
+                "eko",
+                "ekolo",
+                "get",
+                "http",
+                "post",
+                "request",
+                "response"
+            ],
+            "time": "2020-02-27T14:39:08+00:00"
+        },
+        {
+            "name": "ekolo/eko-magic",
+            "version": "0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ekolo-contributing/eko-magic.git",
+                "reference": "007f8b68be53abea10d1953df35123547e9f798b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ekolo-contributing/eko-magic/zipball/007f8b68be53abea10d1953df35123547e9f798b",
+                "reference": "007f8b68be53abea10d1953df35123547e9f798b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "lbrary",
+            "autoload": {
+                "psr-4": {
+                    "Ekolo\\Component\\EkoMagic\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Don de Dieu BOLENGE",
+                    "email": "dondedieubolenge@gmail.com"
+                }
+            ],
+            "description": "Module permet de g\u0000n\u0000rer des m\u0000thodes magiques",
+            "keywords": [
+                "bag",
+                "eko",
+                "eko-magic",
+                "ekolo",
+                "magic",
+                "magique",
+                "parameter",
+                "parameterbag"
+            ],
+            "time": "2020-02-26T12:38:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,28 @@
+{
+    "name": "ekolo/eko-console",
+    "description": "Librairie PHP permettant de g\u0000rer les commandes ex\u0000cut\u0000e \u0000 la console",
+    "type": "library",
+    "require": {
+        "ekolo/eko-helpers": "^0.3.1",
+        "ekolo/eko-http": "^0.3.0",
+        "ekolo/eko-magic": "^0.3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Don de Dieu BOLENGE",
+            "email": "dondedieubolenge@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/Helpers/namespaces.php",
+            "src/Helpers/functions.php",
+            "src/Helpers/constantes.php"
+        ],
+        "psr-4": {
+            "Ekolo\\Component\\Console\\": "src/",
+            "Ekolo\\Component\\Console\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "ekolo/eko-http",
+    "description": "Permet de gérer les différentes requêtes et réponses http et d'autres fonctionnalité liées au protol http",
+    "keywords": ["ekolo", "http", "eko", "request", "response", "post", "body", "get"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Don de Dieu BOLENGE",
+            "email": "dondedieubolenge@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ekolo/eko-magic": "^0.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ekolo\\Component\\Http\\": "src/"
+        }
+    }
+}
