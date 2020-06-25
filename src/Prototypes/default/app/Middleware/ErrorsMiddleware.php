@@ -36,7 +36,8 @@
             $errors_layout = $errors_path.'.error';
 
             $this->response->setTemplate($errors_layout);
-            $this->response->render($errors_path.'.404', [], 404);
+            $this->response->addHeaders([$this->response->server()->SERVER_PROTOCOL().' 404']);
+            $this->response->render($errors_path.'.404', []);
         }
 
         /**

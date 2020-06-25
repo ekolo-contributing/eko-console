@@ -9,6 +9,6 @@
         }
     },
     "require": {
-        "ekolo/ekolo-framework": "^0.3.4"
+        "ekolo/ekolo-framework": "^0.3.8"
     }
 }

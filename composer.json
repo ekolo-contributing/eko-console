@@ -1,6 +1,7 @@
 {
     "name": "ekolo/eko-console",
     "description": "Librairie PHP permettant de g\u0000rer les commandes ex\u0000cut\u0000e \u0000 la console",
+    "version": "0.0.2",
     "type": "library",
     "require": {
         "ekolo/eko-helpers": "^0.3.1",
